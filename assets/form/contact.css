@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Dosis', sans-serif;
+}
+body { background-color: #27190d;}
+
+.form {
+    background-color:#7d6450;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5%;
+    padding: 20px;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 18px;
+    border-radius: 20px;
+}
+h2 {
+    font-family: 'Major Mono Display', monospace;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: #27190d;
+    font-weight: 600;
+}
+.field-wrap {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+.req {
+    color:rgb(104, 104, 104)
+}
+.button {
+    padding: 4px;
+    margin:10px 0px 10px 0px;
+    border-radius: 10px;
+    background-color:#27190d;
+    color:whitesmoke;
+    font-size: 16px;
+    font-weight: 600;
+}
+.forgot a {
+    color: #b4b097;
+}
+.form-img {
+    height: 600px;
+    border-radius: 10px;
+}
+.back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    border-radius: 10px;
+    background-color:#7d6450;
+    color:whitesmoke;
+    font-size: 16px;
+    font-weight: 600;
+}
+.back-button {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* MEDIAQUERIES */
+@media (max-width: 992px)
+{
+    .form-img{
+        height: 600px;
+    }
+}
+@media (max-width: 7680px)
+{
+    .form-img{
+        height: 150px;
+    }
+}
