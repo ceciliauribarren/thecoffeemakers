@@ -172,7 +172,6 @@ align-items: center;
     /* grid-template-rows: 500px 500px 500px; */
     grid-template-rows: 1fr 1fr 1fr;
     gap: 20px;
-    height: 1200px;
 }
 .blend1 {
     background-image: url(./Photos/dark.jpeg);
