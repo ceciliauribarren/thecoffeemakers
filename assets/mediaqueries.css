@@ -145,9 +145,19 @@
     justify-content: center;
     align-items: center;
     width: 80%;
+    height: 800px;
+}
+.drink-text {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .blend1,.blend2,.blend3,.blend4 {
-
-    width: 300px;
-    height: 200px;
-}}
+    padding: 40px 60px;
+}
+.blend4 {
+    margin-bottom: 300px;
+}
+}
