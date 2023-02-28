@@ -16,38 +16,28 @@
 
 <header>  
 
-
-    
 <nav class="navbar">
-    <!-- <img src="./assets/photos/logo.png" alt="logo-icon" class="logo-icon">       -->
-    <i class="fa-solid fa-mug-hot logo-icon"></i>
+    <i class="fa-solid fa-mug-hot logo-icon" id="logo-icon"></i>
 
-    <div class="menu">
-        <label for="menu-toggle">
-            <img src="./assets/Photos/menu.png" alt="Menu" class="menu-icon">
-        </label>
-        <input type="checkbox" class="menu-toggle" id="menu-toggle">
-        <ul class="toggle">
-            <li>Products</li>
-            <li>Coffee & Bar</li>
-            <li>About Us</li>
-        </ul>
-    </div>
+    <label for="menu-toggle" class="menu-label">
+        <i class="fa-solid fa-bars"></i>    </label>
+    <input id="menu-toggle" type="checkbox" />
 
-<ul class="nav-list">
-    <li><a href="#">
-        <span>Home</span></a></li> 
-    <li><a href="#">Products</a></li>
-    <li><a href="#">Coffee & Bar</a></li>
-    <li><a href="#">About Us</a></li>
-</ul>
 
-<div class="nav-cart">
-    <label for="cart-toggle" class="cart-icon">
-        <i class="fa-solid fa-basket-shopping cart-icon"></i>
+    <ul class="navbar-list">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#beans-section">Products</a></li>
+        <li><a href="#bakery">Coffee&Bar</a></li>
+        <li><a href="#contact-us">About</a></li>
+        
+        
+    </ul>
+    <label for="cart-toggle" class="cart-label">
+     
+        <i class="fa-solid fa-cart-shopping cart-icon"></i>
     </label>
     <input type="checkbox" id="cart-toggle" />
-</div>
+
 </nav>
     </header>
 
@@ -62,7 +52,6 @@
     <div class="hero-background"></div>
     <span>the</span>
     <h1>COFFEE MAKERS</h1>
-    <a href="#">Reservation</a>
  </section>
 
  <section class="about">
@@ -70,7 +59,7 @@
     <h2>A BETTER WAY TO BREW."</h2>
  </section>
 
-<section class="beans-section">
+<section id="beans-section">
  <h3>read more about the process</h3>       
  <ul class="beans-list">
     <li>
@@ -85,11 +74,12 @@
     </ul>
        
 </section>
+
 <section id="drink-section">
     <h3>
         our specialties</h3>
 
-<div class="drink">
+    <div class="drink">
         <div class="blend1">
             <div class="drink-text">
                 <h2>01</h2>
@@ -117,6 +107,7 @@
                 <p>COCTAIL</p>
             </div>
     </div>
+</div>
 </section >
 <section id="bakery">
     <img src="./assets/Photos/bakery.jpeg" alt="blueberry-scons">
